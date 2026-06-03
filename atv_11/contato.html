@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="entrar.css">
-    <title>ENTRAR</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <title>CONTATO</title>
 </head>
+
 <body>
-    <header>
+
+  <header>
       <nav>
         <div class="nav-left">
           <a href="index.html">HOME</a>
@@ -25,26 +28,31 @@
         <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/77770610c0de515c6150e899d70445ff3d25094d/Logo.jpg" alt="Instituto Federal São Paulo">
       </div>
     </header>
-    <h2>Entrar</h2>
 
-    <form action="">
-        <div>
-            <label for="username">Usuário</label>
-            <input type="text" id="username" name="username" required>
-        </div>
-
-        <div>
-            <label for="password">Senha</label>
-            <input type="password" id="password" name="password" required>
-        </div>
-
-        <button type="submit"> Entrar</button>
-        <a href=""> Esqueci a senha</a>
+  <main>
+    <h1>Contato</h1>
+    <form>
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
     </form>
-</body>
+  </main>
 
-<footer>
+  <footer>
     <a href="https://www.facebook.com/ifsppirituba"> <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/77770610c0de515c6150e899d70445ff3d25094d/facebook.png" alt="facebook" width="30">
     <p>IFSP Campus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato (011) 2504-0100</p>
-</footer>
+  </footer>
+
+</body>
+
 </html>
