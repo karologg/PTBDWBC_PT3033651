@@ -129,12 +129,4 @@ PTBDWBC_PT3033651/
 
 ---
 
-## 📝 Notas
-
-- Todas as atividades foram desenvolvidas seguindo as especificações de cada semana
-- Os redirecionamentos (links href) foram corrigidos para funcionar corretamente em cada diretório
-- Cada atividade evoluiu em complexidade, adicionando novos conceitos e funcionalidades
-
----
-
 **Última atualização**: Junho 2026
